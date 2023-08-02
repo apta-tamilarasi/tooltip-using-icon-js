@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    padding:20px;
+}
+
+
+
+/*
+.row{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+.card{
+    width:33.33%;
+    padding:10px;
+   
+}
+*/
+
+.ques{
+    padding:10px;
+    background-color: purple;
+    color:white;
+    width:50%;
+    margin:auto;
+
+    font-size: 14px;
+}
+.tip{
+    display: none;
+}
+
+
+.tool{
+    display: block;
+}
+
+p{
+    padding:5px;
+    margin-top: 20px;
+    background-color: pink;
+    border-radius: 20px 0px 20px 0px;
+    border:2px solid black;
+}
+
+
+@media(min-width:250px){
+    
+    
+    .card{
+        width:100%;
+        padding:10px;
+       
+    }
+
+    
+img{
+    width:100%;
+    height:200px;
+    border:2px solid black;
+   text-align: center;
+}
+
+}
+
+
+
+@media(min-width:660px){
+    
+    
+    .card{
+        width:100%;
+        padding:10px;
+       
+    }
+
+    
+img{
+    width:100%;
+    height:200px;
+    border:2px solid black;
+   text-align: center;
+}
+
+}
+
+
+@media(min-width:1000px){
+    .row{
+        display:flex;
+        justify-content: space-between;
+    
+    }
+
+    .container{
+        width:80%;
+        margin:auto;
+    }
+    
+    
+    .card{
+        width:33.33%;
+        padding:10px;
+       
+    }
+
+
+    
+section{
+    padding:50px;
+}
+
+
+img{
+    width:310px;
+    height:200px;
+    border:2px solid black;
+   text-align: center;
+}
+
+
+}
